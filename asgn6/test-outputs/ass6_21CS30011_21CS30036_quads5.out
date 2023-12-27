@@ -1,0 +1,308 @@
+------------------------------------------------------------------------------------------------------------------------
+		THREE ADDRESS CODE (TAC):
+------------------------------------------------------------------------------------------------------------------------
+		
+		0:    printStr: 
+		1:    function printStr ends
+		
+		2:    readInt: 
+		3:    function readInt ends
+		
+		4:    printInt: 
+		5:    function printInt ends
+		
+		6:    main: 
+		7:    t0 = 5
+		8:    n1 = t0
+		9:    t1 = 5
+		10:    n2 = t1
+		11:    param .LC0
+		12:    t2 = call printStr, 1
+		13:    t3 = 1
+		14:    if n1 == n2 goto 18
+		15:    t3 = 0
+		16:    goto 21
+		17:    goto 24
+		18:    param .LC1
+		19:    t4 = call printStr, 1
+		20:    goto 24
+		21:    param .LC2
+		22:    t5 = call printStr, 1
+		23:    goto 24
+		24:    t6 = 6
+		25:    n2 = t6
+		26:    param .LC3
+		27:    t7 = call printStr, 1
+		28:    t8 = 1
+		29:    if n1 != n2 goto 33
+		30:    t8 = 0
+		31:    goto 36
+		32:    goto 39
+		33:    param .LC4
+		34:    t9 = call printStr, 1
+		35:    goto 39
+		36:    param .LC5
+		37:    t10 = call printStr, 1
+		38:    goto 39
+		39:    t11 = 1
+		40:    t12 = -t11
+		41:    n1 = t12
+		42:    t13 = 3
+		43:    n2 = t13
+		44:    param .LC6
+		45:    t14 = call printStr, 1
+		46:    t15 = 1
+		47:    if n1 < n2 goto 51
+		48:    t15 = 0
+		49:    goto 54
+		50:    goto 57
+		51:    param .LC7
+		52:    t16 = call printStr, 1
+		53:    goto 57
+		54:    param .LC8
+		55:    t17 = call printStr, 1
+		56:    goto 57
+		57:    t18 = 1
+		58:    t19 = -t18
+		59:    n2 = t19
+		60:    param .LC9
+		61:    t20 = call printStr, 1
+		62:    t21 = 1
+		63:    if n1 < n2 goto 67
+		64:    t21 = 0
+		65:    goto 70
+		66:    goto 73
+		67:    param .LC10
+		68:    t22 = call printStr, 1
+		69:    goto 73
+		70:    param .LC11
+		71:    t23 = call printStr, 1
+		72:    goto 73
+		73:    param .LC12
+		74:    t24 = call printStr, 1
+		75:    t25 = 1
+		76:    if n1 <= n2 goto 80
+		77:    t25 = 0
+		78:    goto 83
+		79:    goto 86
+		80:    param .LC13
+		81:    t26 = call printStr, 1
+		82:    goto 86
+		83:    param .LC14
+		84:    t27 = call printStr, 1
+		85:    goto 86
+		86:    t28 = 2
+		87:    t29 = -t28
+		88:    n1 = t29
+		89:    param .LC15
+		90:    t30 = call printStr, 1
+		91:    t31 = 1
+		92:    if n1 <= n2 goto 96
+		93:    t31 = 0
+		94:    goto 99
+		95:    goto 102
+		96:    param .LC16
+		97:    t32 = call printStr, 1
+		98:    goto 102
+		99:    param .LC17
+		100:    t33 = call printStr, 1
+		101:    goto 102
+		102:    t34 = 7
+		103:    n1 = t34
+		104:    param .LC18
+		105:    t35 = call printStr, 1
+		106:    t36 = 1
+		107:    if n1 > n2 goto 111
+		108:    t36 = 0
+		109:    goto 114
+		110:    goto 117
+		111:    param .LC19
+		112:    t37 = call printStr, 1
+		113:    goto 117
+		114:    param .LC20
+		115:    t38 = call printStr, 1
+		116:    goto 117
+		117:    t39 = 7
+		118:    n2 = t39
+		119:    param .LC21
+		120:    t40 = call printStr, 1
+		121:    t41 = 1
+		122:    if n1 > n2 goto 126
+		123:    t41 = 0
+		124:    goto 129
+		125:    goto 132
+		126:    param .LC22
+		127:    t42 = call printStr, 1
+		128:    goto 132
+		129:    param .LC23
+		130:    t43 = call printStr, 1
+		131:    goto 132
+		132:    param .LC24
+		133:    t44 = call printStr, 1
+		134:    t45 = 1
+		135:    if n1 >= n2 goto 139
+		136:    t45 = 0
+		137:    goto 142
+		138:    goto 145
+		139:    param .LC25
+		140:    t46 = call printStr, 1
+		141:    goto 145
+		142:    param .LC26
+		143:    t47 = call printStr, 1
+		144:    goto 145
+		145:    t48 = 8
+		146:    n1 = t48
+		147:    param .LC27
+		148:    t49 = call printStr, 1
+		149:    t50 = 1
+		150:    if n1 >= n2 goto 154
+		151:    t50 = 0
+		152:    goto 157
+		153:    goto 160
+		154:    param .LC28
+		155:    t51 = call printStr, 1
+		156:    goto 160
+		157:    param .LC29
+		158:    t52 = call printStr, 1
+		159:    goto 160
+		160:    param .LC30
+		161:    t53 = call printStr, 1
+		162:    t54 = 0
+		163:    return t54
+		164:    function main ends
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+		Symbol Table: symTab.global                                     
+------------------------------------------------------------------------------------------------------------------------------------------------------
+		Name                     Type                     Initial Value       Size           Offset         Nested
+------------------------------------------------------------------------------------------------------------------------------------------------------
+		printStr                 function                 *                   0              0              symTab.global.printStr
+		readInt                  function                 *                   0              0              symTab.global.readInt
+		printInt                 function                 *                   0              0              symTab.global.printInt
+		main                     function                 *                   0              0              symTab.global.main
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+		Symbol Table: symTab.global.printStr                            
+------------------------------------------------------------------------------------------------------------------------------------------------------
+		Name                     Type                     Initial Value       Size           Offset         Nested
+------------------------------------------------------------------------------------------------------------------------------------------------------
+		s                        char                     *                   1              0              NULL
+		RETVAL                   int                      *                   4              1              NULL
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+		Symbol Table: symTab.global.readInt                             
+------------------------------------------------------------------------------------------------------------------------------------------------------
+		Name                     Type                     Initial Value       Size           Offset         Nested
+------------------------------------------------------------------------------------------------------------------------------------------------------
+		eP                       int                      *                   4              0              NULL
+		RETVAL                   int                      *                   4              4              NULL
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+		Symbol Table: symTab.global.printInt                            
+------------------------------------------------------------------------------------------------------------------------------------------------------
+		Name                     Type                     Initial Value       Size           Offset         Nested
+------------------------------------------------------------------------------------------------------------------------------------------------------
+		n                        int                      *                   4              0              NULL
+		RETVAL                   int                      *                   4              4              NULL
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+		Symbol Table: symTab.global.main                                
+------------------------------------------------------------------------------------------------------------------------------------------------------
+		Name                     Type                     Initial Value       Size           Offset         Nested
+------------------------------------------------------------------------------------------------------------------------------------------------------
+		RETVAL                   int                      *                   4              0              NULL
+		n1                       int                      *                   4              4              NULL
+		n2                       int                      *                   4              8              NULL
+		t0                       int                      5                   4              12             NULL
+		t1                       int                      5                   4              16             NULL
+		printStr                 int                      *                   4              20             NULL
+		.LC0                     int                      *                   4              24             NULL
+		t2                       int                      *                   4              28             NULL
+		t3                       int                      *                   4              32             NULL
+		.LC1                     int                      *                   4              36             NULL
+		t4                       int                      *                   4              40             NULL
+		.LC2                     int                      *                   4              44             NULL
+		t5                       int                      *                   4              48             NULL
+		t6                       int                      6                   4              52             NULL
+		.LC3                     int                      *                   4              56             NULL
+		t7                       int                      *                   4              60             NULL
+		t8                       int                      *                   4              64             NULL
+		.LC4                     int                      *                   4              68             NULL
+		t9                       int                      *                   4              72             NULL
+		.LC5                     int                      *                   4              76             NULL
+		t10                      int                      *                   4              80             NULL
+		t11                      int                      1                   4              84             NULL
+		t12                      int                      *                   4              88             NULL
+		t13                      int                      3                   4              92             NULL
+		.LC6                     int                      *                   4              96             NULL
+		t14                      int                      *                   4              100            NULL
+		t15                      int                      *                   4              104            NULL
+		.LC7                     int                      *                   4              108            NULL
+		t16                      int                      *                   4              112            NULL
+		.LC8                     int                      *                   4              116            NULL
+		t17                      int                      *                   4              120            NULL
+		t18                      int                      1                   4              124            NULL
+		t19                      int                      *                   4              128            NULL
+		.LC9                     int                      *                   4              132            NULL
+		t20                      int                      *                   4              136            NULL
+		t21                      int                      *                   4              140            NULL
+		.LC10                    int                      *                   4              144            NULL
+		t22                      int                      *                   4              148            NULL
+		.LC11                    int                      *                   4              152            NULL
+		t23                      int                      *                   4              156            NULL
+		.LC12                    int                      *                   4              160            NULL
+		t24                      int                      *                   4              164            NULL
+		t25                      int                      *                   4              168            NULL
+		.LC13                    int                      *                   4              172            NULL
+		t26                      int                      *                   4              176            NULL
+		.LC14                    int                      *                   4              180            NULL
+		t27                      int                      *                   4              184            NULL
+		t28                      int                      2                   4              188            NULL
+		t29                      int                      *                   4              192            NULL
+		.LC15                    int                      *                   4              196            NULL
+		t30                      int                      *                   4              200            NULL
+		t31                      int                      *                   4              204            NULL
+		.LC16                    int                      *                   4              208            NULL
+		t32                      int                      *                   4              212            NULL
+		.LC17                    int                      *                   4              216            NULL
+		t33                      int                      *                   4              220            NULL
+		t34                      int                      7                   4              224            NULL
+		.LC18                    int                      *                   4              228            NULL
+		t35                      int                      *                   4              232            NULL
+		t36                      int                      *                   4              236            NULL
+		.LC19                    int                      *                   4              240            NULL
+		t37                      int                      *                   4              244            NULL
+		.LC20                    int                      *                   4              248            NULL
+		t38                      int                      *                   4              252            NULL
+		t39                      int                      7                   4              256            NULL
+		.LC21                    int                      *                   4              260            NULL
+		t40                      int                      *                   4              264            NULL
+		t41                      int                      *                   4              268            NULL
+		.LC22                    int                      *                   4              272            NULL
+		t42                      int                      *                   4              276            NULL
+		.LC23                    int                      *                   4              280            NULL
+		t43                      int                      *                   4              284            NULL
+		.LC24                    int                      *                   4              288            NULL
+		t44                      int                      *                   4              292            NULL
+		t45                      int                      *                   4              296            NULL
+		.LC25                    int                      *                   4              300            NULL
+		t46                      int                      *                   4              304            NULL
+		.LC26                    int                      *                   4              308            NULL
+		t47                      int                      *                   4              312            NULL
+		t48                      int                      8                   4              316            NULL
+		.LC27                    int                      *                   4              320            NULL
+		t49                      int                      *                   4              324            NULL
+		t50                      int                      *                   4              328            NULL
+		.LC28                    int                      *                   4              332            NULL
+		t51                      int                      *                   4              336            NULL
+		.LC29                    int                      *                   4              340            NULL
+		t52                      int                      *                   4              344            NULL
+		.LC30                    int                      *                   4              348            NULL
+		t53                      int                      *                   4              352            NULL
+		t54                      int                      0                   4              356            NULL
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
